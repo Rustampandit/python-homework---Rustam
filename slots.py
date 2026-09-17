@@ -7,7 +7,7 @@ class Person:
         self.age = age
 
 if __name__ == "__main__":
-	p = Person("Suhag", 18)
+	p = Person("Rustam", 18)
 	print(f"Created person: {p.name}, Age: {p.age}")
 	print("\nAttempting to add 'email' attribute...")
 try:
