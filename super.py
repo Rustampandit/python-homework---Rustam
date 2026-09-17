@@ -15,5 +15,5 @@ class Student(Person):
         print("Age:", self.age)
         print("Roll Number:", self.roll_number)
 
-s = Student("Rustam",20,11)
+s = Student("Rustam ",20,11)
 s.display()
