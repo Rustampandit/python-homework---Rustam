@@ -34,10 +34,10 @@ class PayPalPayment(PaymentGetway):
 
 if __name__ =="__main__":
         print("--- Testing Credit Card Payment ---")
-        cc__payment=CreditCardPayment("123456789","Suhag")
+        cc__payment=CreditCardPayment("123456789","Rustam")
         cc__payment.pay(150.00)
         cc__payment.refund(50.00)
         print("\n-- Testing PayPal Payment ---")
-        paypal_payment= PayPalPayment("suhagadhikari@gmail.com")
+        paypal_payment= PayPalPayment("Rustampandit@gmail.com")
         paypal_payment.pay(50.00)
         paypal_payment.refund(20.00)
